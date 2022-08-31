@@ -1,4 +1,4 @@
-# NDMRKDWNSMPLMD - Studi Kasus Node.js Aplikasi Markdown dengan SimpleMDE
+# NDMRKDWNSMPLMD - Aplikasi Markdown dengan SimpleMDE dan Node.js
 
 ## Cara Mencoba Kode Ini
 
