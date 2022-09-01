@@ -1,5 +1,9 @@
 # NDMRKDWNSMPLMD - Aplikasi Markdown dengan SimpleMDE dan Node.js
 
+## Software Apakah Ini?
+
+NDMRKDWNSMPLMD adalah Aplikasi Markdown dengan SimpleMDE dan Node.js.
+
 ## Cara Mencoba Kode Ini
 
 Untuk mencoba kode ini, download folder ini.
