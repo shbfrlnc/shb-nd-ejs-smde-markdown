@@ -1,6 +1,8 @@
 <script>
     let imagePath;
     let codeMirror;
+
+    // buat GUI SimpleMDE
     const simplemde = new SimpleMDE({
         element: $("#" + "txa-article-content")[0],
         toolbar: [
@@ -22,6 +24,7 @@
             {
                 name: "image-upload",
                 action: function customFunction(editor) {
+                    // custom action untuk tombol image upload
                     $('#modal-get-image').modal({ backdrop: 'static', keyboard: false });
                     codeMirror = editor.codemirror;
                 },
@@ -32,6 +35,7 @@
     });
 
     $('#modal-get-image').on('shown.bs.modal', async function () {
+        // untuk menerima daftar gambar dari server
         const results = await getImageList('/gallery/ajax-list-image');
         results.forEach((item, index) => {
             $('#my-modal-body').append(`
@@ -41,6 +45,8 @@
     });
 
     $(document).on('dblclick', '#my-modal-body div img', function () {
+        // untuk memilih gambar saat double click 
+        // di daftar gambar (di modal dialog)
         imagePath = $(this).data('path');
         const url = "/" + imagePath;
         const currentCursorPos = codeMirror.getCursor();
@@ -51,6 +57,7 @@
     });
 
     async function getImageList(url) {
+        // helper untuk fetch url
         const results = await fetch(url);
         return results.json();
     }
