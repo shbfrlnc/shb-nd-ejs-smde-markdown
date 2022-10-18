@@ -1,14 +1,14 @@
-# NDMRKDWNSMPLMD - Aplikasi Markdown dengan SimpleMDE dan Node.js
+# shb-nd-ejs-smde-markdown - Aplikasi Markdown dengan SimpleMDE dan Node.js
 
 ## Software Apakah Ini?
 
-NDMRKDWNSMPLMD adalah Aplikasi Markdown dengan SimpleMDE dan Node.js.
+shb-nd-ejs-smde-markdown adalah Aplikasi Markdown dengan SimpleMDE dan Node.js.
 
 ## Screenshot
 
-![ScreenShot](.readme-assets/NDMRKDWNSMPLMD-1.png?raw=true)
+![ScreenShot](.readme-assets/shb-nd-ejs-smde-markdown-1.png?raw=true)
 
-![ScreenShot](.readme-assets/NDMRKDWNSMPLMD-2.png?raw=true)
+![ScreenShot](.readme-assets/shb-nd-ejs-smde-markdown-2.png?raw=true)
 
 ## Cara Mencoba Kode Ini
 
