@@ -1,5 +1,9 @@
 # shb-nd-ejs-smde-markdown - Aplikasi Markdown dengan SimpleMDE dan Node.js
 
+## Traktir Saya
+
+Berikan saya uang gratis di https://bit.ly/shb-traktir
+
 ## Software Apakah Ini?
 
 shb-nd-ejs-smde-markdown adalah Aplikasi Markdown dengan SimpleMDE dan Node.js.
